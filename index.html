@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+<html> 
+   <head> 
+      <meta charset="UTF-8" /> 
+      <title>Static website</title> 
+   </head> 
+   <body> 
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script> 
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script> 
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script> 
+<div id="react-app"></div>
+
+   <script type="text/babel">
+      function Greetings(){
+          return <div><h1>hello jsx!!</h1></div>
+      }
+       ReactDOM.render(<Greetings />,document.getElementById('react-app'))
+   </script>
+   </body> 
+</html>
